@@ -1,7 +1,7 @@
 import { createGlobalStyle, styled } from "styled-components";
 import { primaryColor, primaryDarkColor } from "../config/colors";
 
-export const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
 
     * {
         margin: 0;
@@ -44,3 +44,5 @@ export const Container = styled.section`
   background-color: #fff;
   margin: 30px auto;
 `;
+
+export default GlobalStyle;
